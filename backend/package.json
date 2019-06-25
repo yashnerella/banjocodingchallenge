@@ -1,0 +1,25 @@
+{
+  "name": "banjo-back-end",
+  "version": "1.0.0",
+  "description": "This API is responsible for providing support to banjo-front-end",
+  "main": "server.js",
+  "scripts": {
+    "test": "jest",
+    "start": "nodemon server.js"
+  },
+  "author": "Yash Nerella",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongodb": "^3.2.7",
+    "mongoose": "^5.6.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.4.4",
+    "@babel/core": "^7.4.5",
+    "@babel/node": "^7.4.5",
+    "@babel/preset-env": "^7.4.5",
+    "jest": "^24.8.0",
+    "nodemon": "^1.19.1"
+  }
+}
