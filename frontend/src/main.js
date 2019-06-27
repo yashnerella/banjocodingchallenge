@@ -14,3 +14,9 @@ new Vue({
   store,
   render: h => h(App)
 }).$mount('#app')
+
+window.axios = require('axios')
+window.axios.defaults.headers.common = {
+    'Access-Control-Allow-Origin': '*',
+    'X-Requested-With': 'XMLHttpRequest'
+}
